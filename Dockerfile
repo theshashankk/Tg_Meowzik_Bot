@@ -16,6 +16,6 @@ RUN apt-get update \
 
 COPY . .
 
-RUN cp sample_config.py config.py
+RUN config.py
 
 CMD ["python3", "main.py"]
